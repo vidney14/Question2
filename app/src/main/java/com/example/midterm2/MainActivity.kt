@@ -56,6 +56,7 @@ fun CounterScreen(
 @Composable
 fun CounterScreenPreview() {
     Midterm2Theme {
+
         CounterScreen()
     }
 }
