@@ -48,6 +48,7 @@ fun CounterScreen(
         Text("Count: $count")
         Button(onClick = { viewModel.increment() }) {
             Text("Increment")
+
         }
     }
 }
@@ -56,7 +57,6 @@ fun CounterScreen(
 @Composable
 fun CounterScreenPreview() {
     Midterm2Theme {
-
         CounterScreen()
     }
 }
